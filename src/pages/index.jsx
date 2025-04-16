@@ -36,6 +36,7 @@ export default function Main() {
             </header>
             <main>
                 <div className={styles.main}>
+                <div className={styles.n_div}><h3>Фильмы добавленные через файлы filmData.jsx и filmList.jsx</h3></div>
                     <FilmList films={filteredFilms}/>
                     <div className={styles.name_div}><h3>Фильмы добавленные через API (нужен VPN)</h3></div>
                     <FilmListApi selCat={selectedGenre}/>

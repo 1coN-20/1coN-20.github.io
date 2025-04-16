@@ -11,7 +11,7 @@ export default function FilmList({ films }) {
                             <p className={styles.product_name}>{film.title}</p>
                             <div className={styles.product_div2}>
                                 <img className={styles.product_img} src={film.img} alt={film.title} />
-                                <p className={styles.product_description}>{film.genre}</p>
+                                <p className={styles.product_description}>{film.type}</p>
                                 <button className={styles.addCart}>Посмотреть</button>
                             </div>
                         </div>

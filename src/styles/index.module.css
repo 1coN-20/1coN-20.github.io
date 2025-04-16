@@ -23,6 +23,7 @@ body {
     border: 1px solid black;
     background: white;
     height: 95%;
+    overflow: hidden;
 }
 
 .product_div1:hover {
@@ -48,6 +49,21 @@ body {
     color: black;
     font-size: 16px;
     text-align: center;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.product_description::-webkit-scrollbar {
+    width: 8px;
+}
+
+.product_description::-webkit-scrollbar-thumb {
+    background: #88888870;
+    border-radius: 10px;
+}
+
+.product_description::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
 .product_div2 {
@@ -74,7 +90,7 @@ header {
     background-color: #f5f5f5; 
 }
 
-.sort_div, .name_div {
+.sort_div, .name_div, .n_div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,6 +100,10 @@ header {
     background: white;
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
     transition: box-shadow 0.2s ease-in-out;
+}
+
+.n_div{
+    margin-top: 30px;
 }
 
 .name_div {
