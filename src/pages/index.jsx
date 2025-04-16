@@ -36,7 +36,8 @@ export default function Main() {
             </header>
             <main>
                 <div className={styles.main}>
-                    {/*<FilmList films={filteredFilms}/>*/}
+                    <FilmList films={filteredFilms}/>
+                    <div className={styles.name_div}><h3>Фильмы добавленные через API (нужен VPN)</h3></div>
                     <FilmListApi selCat={selectedGenre}/>
                 </div>
             </main>
