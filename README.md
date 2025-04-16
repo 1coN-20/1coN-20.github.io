@@ -1,3 +1,11 @@
+ИПР Вариант 2 
+
+Каталог фильмов
+
+Основной список реализован через API, но при использовании необходимо включить VPN для подгружения информации с сервера
+Так же доступен список собвстенных фильмов. Он закоментирован в файле index.jsx (return() -> <main> </main>)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
